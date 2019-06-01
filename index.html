@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+</head>
+<body>
+	  <div class="overlay"></div>
+ 	<div class="main">
+ 	<div class="main-inner">
+ 		<h1>Make 3.0 Editor Look Better!</h1>
+ 		<p class="descr">With 'Better 3.0' extensions you will turn Scratch 3.0 editor into something that you actually want to use! Move stage to the left, Enable dark theme and much, much more!</p>
+ 		<div class="buttons">
+			<div class="button-wrapper">
+			<a href="https://chrome.google.com/webstore/detail/better30/gjoimmimmkpppgkhobhceblafkienddi" title="Download in Chrome Store">
+			<div class="button-strech">
+
+				<p><img src="download.svg" class="download-icon" alt="↓" width="30px"> Download</p>
+			</div>
+			</a>
+			</div>
+			<div class="button-wrapper">
+			<a href="https://discord.gg/KjnvyRr" title="Better3.0's Discord Server">
+				<div class="button-strech">
+
+					<p><img src="special.svg" class="download-icon" alt="↓" width="30px"> Updates Log</p>
+				</div>
+			</a>
+			</div>
+		</div>
+		<a href="#" class="morev" style="display: none">More Versions</a>
+	</div>
+ 	</div>
+ 	
+ 	<script>
+		setTimeout(function(){
+			document.getElementsByClassName("overlay")[0].style.opacity = 0;
+		}, 1);
+		setTimeout(function(){
+			document.getElementsByClassName("overlay")[0].style.display = "none";
+		}, 1000);
+	</script>
+</body>
+</html>
